@@ -246,8 +246,7 @@ export default function Home() {
                   <span className="shrink-0 text-gray-500">$</span>
                   <span className="flex-1">
                     <span className="text-xs">
-                      curl -sSL -o deployer.sh https://deploy.spearmint.sh &&
-                      chmod +x deployer.sh && ./deployer.sh
+                   curl -fsSL https://deploy.spearmint.sh | sudo bash
                     </span>
                   </span>
                 </span>
